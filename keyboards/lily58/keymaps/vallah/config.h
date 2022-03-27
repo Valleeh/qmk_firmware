@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define EE_HANDS
 
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -36,7 +36,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
-#define LEADER_TIMEOUT 1000
+#define LEADER_TIMEOUT 300
+#define LEADER_PER_KEY_TIMING
 // Underglow
 /*
 #undef RGBLED_NUM

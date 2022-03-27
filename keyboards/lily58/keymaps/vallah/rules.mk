@@ -1,6 +1,8 @@
-# include $(KEYBOARD_PATH_2)/keymaps/$(KEYMAP)/qmk-vim/rules.mk
+include $(KEYBOARD_PATH_2)/keymaps/$(KEYMAP)/qmk-vim/rules.mk
+# include keyboards/uno/keymaps/qmk-vim-update-readme/qmk-vim/rules.mk
     
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
+TAP_DANCE_ENABLE = yes
 MOUSEKEY_ENABLE = yes        # Mouse keys
 EXTRAKEY_ENABLE = no        # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
@@ -11,9 +13,7 @@ AUDIO_ENABLE = no           # Audio output
 RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
 SWAP_HANDS_ENABLE = no      # Enable one-hand typing
 OLED_ENABLE= no     # OLED display
-# TAP_DANCE_ENABLE = yes
 LEADER_ENABLE = yes
-# VIM_FOR_MAC = yes
 
 # If you want to change the display of OLED, you need to change here
 # SRC +=  ./lib/rgb_state_reader.c \
